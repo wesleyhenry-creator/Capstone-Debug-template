@@ -119,7 +119,7 @@ Hero Section
 .hero {
 padding: 50px 30px;
 color: #123b4d;
-background-color: #b9e3f2;
+background-color: #75bed8;
 text-align: center;
 border-bottom: 1px solid #8fc8dc;
 }
@@ -147,16 +147,45 @@ border-radius: 8px;
 Introduction
 ========================= */
 
+/* =========================
+   About Me Section
+   ========================= */
+
 .intro {
-padding: 30px;
+    padding: 30px;
+    background-color: #e8f4f8;
+    border-left: 5px solid #164e70;
+}
+
+.intro h2 {
+    color: #164e70;
 }
 
 .intro p {
-margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .intro strong {
-color: #164e70;
+    color: #164e70;
+}
+
+
+/* =========================
+   Explore My Work Section
+   ========================= */
+
+.work {
+    padding: 30px;
+    background-color: #eef2f7;
+    border-left: 5px solid #246b8f;
+}
+
+.work h2 {
+    color: #164e70;
+}
+
+.work .project {
+    background-color: #ffffff;
 }
 
 /* =========================
