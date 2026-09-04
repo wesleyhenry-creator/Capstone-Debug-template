@@ -1,0 +1,88 @@
+What was fixed:
+
+Contact.html
+	•✅ Added lang="en".
+	•✅ Added UTF-8 character encoding.
+	•✅ Added responsive viewport metadata.
+	•✅ Added a meta description.
+	•✅ Changed the title to Contact Me.
+	•✅ Replaced generic <div> page structure with semantic HTML.
+	•✅ Added proper <label> elements for every form control.
+	•✅ Added unique id and name attributes.
+	•✅ Changed the email field from type="text" to type="email".
+	•✅ Added a Subject field.
+	•✅ Added required validation to all fields.
+	•✅ Added autocomplete attributes for the name and email.
+	•✅ Added rows to the message textarea.
+	•✅ Added type="submit" to the button.
+	•✅ Added method="post" to the form.
+	•✅ Made the footer email address clickable.
+	•✅ Kept your existing css/styles.css reference.
+
+Project.html
+		•✅ Added lang="en".
+		•✅ Added UTF-8 character encoding.
+		•✅ Added responsive viewport metadata.
+		•✅ Added a meta description.
+		•✅ Improved the page title.
+		•✅ Replaced generic <div> elements with semantic <header>, <main>, <section>, and <footer>.
+		•✅ Added the missing Project 3.
+		•✅ Added alt text to all project images.
+		•✅ Added image dimensions.
+		•✅ Made the email address a clickable mailto: link.
+		•✅ Kept your existing css/styles.css stylesheet.
+		•✅ Kept the existing project1.jpg and project2.jpg paths.
+		•✅ Added the expected path images/project3.jpg.
+
+Aboutme.html
+	•✅ Added lang="en" for accessibility.
+	•✅ Added <meta charset="UTF-8">.
+	•✅ Added the responsive viewport.
+	•✅ Changed the page title from About to About Me.
+	•✅ Replaced unnecessary <div> elements with semantic <header>, <main>, <section>, and <footer>.
+	•✅ Added the missing skills table.
+	•✅ Added <caption> to describe the table.
+	•✅ Added proper <thead> and <tbody> elements.
+	•✅ Added scope="col" to table headings.
+	•✅ Removed the redundant skills paragraph because the skills are now represented by the required table.
+	•✅ Added meaningful alt text to the image.
+	•✅ Added image dimensions to help prevent layout shifts.
+	•✅ Changed the email address into a clickable mailto: link.
+	•✅ Kept your existing stylesheet path: css/styles.css.
+	•✅ Kept your existing image path: images/profile.jpg.
+
+Index.html
+	• ✅ HTML5 semantic structure
+	• ✅ Navigation connecting all four pages
+	• ✅ lang="en"
+	• ✅ UTF-8 character encoding
+	• ✅ Responsive viewport
+	• ✅ Meta description
+	• ✅ Meaningful page title
+	• ✅ Image alt text
+	• ✅ Image dimensions
+	• ✅ No Lorem ipsum
+	• ✅ Accessible navigation
+	• ✅ aria-current="page" for the active page
+	• ✅ Internal links to About, Projects, and Contact
+	• ✅ Professional footer
+	• ✅ Compatible with your existing .hero, .intro, .project, .header, .footer, and nav CSS
+
+Style.css
+
+	•✅ Proper header alignment → centered.
+	•✅ Navigation styling → added complete nav, ul, li, and link styling.
+	•✅ Hero contrast → replaced the very light lightblue combination with darker text and a controlled background.
+	•✅ Image sizing → added max-width, height: auto, and responsive behavior.
+	•✅ 5+ selector types → many selectors are now used, including element, class, descendant, child-like structural relationships, attribute/state selectors, and pseudo-classes.
+	•✅ Pseudo-classes → :hover, :focus, :focus-visible, :valid, :invalid, and :nth-child() are included.
+	•✅ Combination selectors → examples include .project h2, .footer a, main a, and form input.
+	•✅ Box model → margins, padding, borders, widths, and box-sizing are demonstrated throughout.
+	•✅ Block/inline styling → .block-element and .inline-element explicitly demonstrate both.
+	•✅ Typography → font family, sizes, weights, line height, and styles are defined.
+	•✅ Colour styling → consistent accessible-looking colour palette throughout.
+	•✅ Forms → labels, inputs, textarea, buttons, focus states, and validation states are styled.
+	•✅ Tables → borders, headings, alternating rows, hover states, caption, and responsive overflow are included.
+	•✅ Footer alignment → corrected to centered.
+	•✅ Code quality → consistent indentation, naming, organization, and comments added.
+    •✅ Responsive design → mobile layout added.

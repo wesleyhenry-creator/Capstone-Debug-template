@@ -35,9 +35,9 @@ The site includes the document language, viewport metadata, descriptive page tit
 
 Open `portfolio/index.html` directly in a browser, then use the page links to navigate. For a local server, run this from the repository root:
 
-```text
+text
 python -m http.server 8000
-```
+
 
 Visit `http://localhost:8000/portfolio/`.
 
