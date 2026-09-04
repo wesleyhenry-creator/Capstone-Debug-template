@@ -1,0 +1,449 @@
+/*
+
+* Personal Portfolio Website
+* Main stylesheet
+  */
+
+/* =========================
+Base Styles
+========================= */
+
+* {
+  box-sizing: border-box;
+  }
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+margin: 0;
+padding: 0;
+color: #333;
+background-color: #f4f6f8;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.6;
+}
+
+/* =========================
+Header
+========================= */
+
+.header {
+padding: 20px;
+color: #fff;
+background-color: #222;
+text-align: center;
+}
+
+.header h1 {
+margin: 0;
+font-size: 2.2rem;
+}
+
+/* =========================
+Navigation
+========================= */
+
+nav {
+padding: 10px 20px;
+background-color: #333;
+text-align: center;
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+nav li {
+display: inline-block;
+margin: 0 10px;
+}
+
+nav a {
+display: inline-block;
+padding: 8px 12px;
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+border-radius: 4px;
+}
+
+/* Pseudo-classes */
+nav a:hover,
+nav a:focus {
+color: #222;
+background-color: #87ceeb;
+}
+
+nav a:focus-visible {
+outline: 3px solid #ffbf47;
+outline-offset: 2px;
+}
+
+/* =========================
+Main Content
+========================= */
+
+main {
+width: 90%;
+max-width: 1000px;
+margin: 30px auto;
+}
+
+section {
+margin-bottom: 30px;
+padding: 30px;
+background-color: #fff;
+border: 1px solid #d5dbe0;
+border-radius: 8px;
+box-shadow: 0 2px 6px rgb(0 0 0 / 8%);
+}
+
+section h2 {
+margin-top: 0;
+color: #164e70;
+}
+
+section h3 {
+color: #246b8f;
+}
+
+/* =========================
+Hero Section
+========================= */
+
+.hero {
+padding: 50px 30px;
+color: #123b4d;
+background-color: #b9e3f2;
+text-align: center;
+border-bottom: 1px solid #8fc8dc;
+}
+
+.hero h2 {
+margin-top: 0;
+font-size: 36px;
+}
+
+.hero p {
+max-width: 700px;
+margin: 0 auto 20px;
+}
+
+.hero img {
+display: block;
+width: 100%;
+max-width: 700px;
+height: auto;
+margin: 20px auto 0;
+border-radius: 8px;
+}
+
+/* =========================
+Introduction
+========================= */
+
+.intro {
+padding: 30px;
+}
+
+.intro p {
+margin-bottom: 15px;
+}
+
+.intro strong {
+color: #164e70;
+}
+
+/* =========================
+Projects
+========================= */
+
+.project {
+margin-bottom: 25px;
+padding: 20px;
+border: 1px solid #d5dbe0;
+border-radius: 6px;
+}
+
+.project img {
+display: block;
+width: 100%;
+max-width: 600px;
+height: auto;
+margin: 15px auto;
+border-radius: 6px;
+}
+
+.project p {
+margin-bottom: 0;
+}
+
+/* Combination selector */
+.project h2 {
+color: #164e70;
+}
+
+.project:hover {
+border-color: #87ceeb;
+}
+
+/* =========================
+Tables
+========================= */
+
+.table-wrapper {
+width: 100%;
+overflow-x: auto;
+}
+
+table {
+width: 100%;
+margin: 20px 0;
+border-collapse: collapse;
+background-color: #fff;
+}
+
+caption {
+margin-bottom: 10px;
+color: #333;
+font-weight: bold;
+text-align: left;
+}
+
+th,
+td {
+padding: 12px 15px;
+border: 1px solid #bfc7ce;
+text-align: left;
+}
+
+th {
+color: #fff;
+background-color: #164e70;
+}
+
+tbody tr:nth-child(even) {
+background-color: #eef4f7;
+}
+
+tbody tr:hover {
+background-color: #dceef5;
+}
+
+/* =========================
+Images
+========================= */
+
+figure {
+margin: 20px 0;
+text-align: center;
+}
+
+figure img {
+display: block;
+width: 100%;
+max-width: 600px;
+height: auto;
+margin: 0 auto;
+border-radius: 8px;
+}
+
+figcaption {
+margin-top: 10px;
+color: #555;
+font-style: italic;
+}
+
+/* =========================
+Contact Form
+========================= */
+
+form {
+max-width: 650px;
+margin: 20px auto;
+padding: 25px;
+background-color: #f8fafb;
+border: 1px solid #d5dbe0;
+border-radius: 8px;
+}
+
+form div {
+margin-bottom: 18px;
+}
+
+form label {
+display: block;
+margin-bottom: 6px;
+color: #222;
+font-weight: bold;
+}
+
+form input,
+form textarea {
+display: block;
+width: 100%;
+padding: 12px;
+color: #333;
+background-color: #fff;
+border: 1px solid #aeb8c1;
+border-radius: 4px;
+font: inherit;
+}
+
+form textarea {
+min-height: 140px;
+resize: vertical;
+}
+
+/* Form pseudo-classes */
+form input:focus,
+form textarea:focus {
+border-color: #164e70;
+outline: 3px solid rgb(22 78 112 / 20%);
+}
+
+form input:invalid,
+form textarea:invalid {
+border-color: #b42318;
+}
+
+form input:valid,
+form textarea:valid {
+border-color: #287d3c;
+}
+
+form button {
+display: inline-block;
+padding: 12px 24px;
+color: #fff;
+background-color: #164e70;
+border: 2px solid #164e70;
+border-radius: 4px;
+font: inherit;
+font-weight: bold;
+cursor: pointer;
+}
+
+form button:hover,
+form button:focus {
+background-color: #0d354c;
+border-color: #0d354c;
+}
+
+form button:focus-visible {
+outline: 3px solid #ffbf47;
+outline-offset: 3px;
+}
+
+/* =========================
+Links
+========================= */
+
+a {
+color: #075985;
+}
+
+a:hover {
+color: #0c4a6e;
+}
+
+main a {
+font-weight: 600;
+}
+
+/* =========================
+Footer
+========================= */
+
+.footer {
+margin-top: 40px;
+padding: 20px;
+color: #fff;
+background-color: #333;
+text-align: center;
+}
+
+.footer p {
+margin: 0;
+}
+
+.footer a {
+color: #b9e3f2;
+}
+
+.footer a:hover,
+.footer a:focus {
+color: #fff;
+}
+
+/* =========================
+Block and Inline Examples
+========================= */
+
+.block-element {
+display: block;
+margin: 10px 0;
+padding: 10px;
+}
+
+.inline-element {
+display: inline;
+margin-right: 8px;
+color: #164e70;
+font-weight: bold;
+}
+
+/* =========================
+Responsive Design
+========================= */
+
+@media (max-width: 600px) {
+.header {
+padding: 15px;
+}
+
+.header h1 {
+    font-size: 1.8rem;
+}
+
+nav li {
+    display: block;
+    margin: 5px 0;
+}
+
+nav a {
+    width: 100%;
+}
+
+main {
+    width: 94%;
+    margin: 20px auto;
+}
+
+section {
+    padding: 20px;
+}
+
+.hero {
+    padding: 30px 20px;
+}
+
+.hero h2 {
+    font-size: 28px;
+}
+
+form {
+    padding: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+}
