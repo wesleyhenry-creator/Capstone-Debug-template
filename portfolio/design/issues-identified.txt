@@ -30,7 +30,6 @@ Project.html
 		•✅ Added alt text to all project images.
 		•✅ Added image dimensions.
 		•✅ Made the email address a clickable mailto: link.
-		•✅ Kept your existing css/styles.css stylesheet.
 		•✅ Kept the existing project1.jpg and project2.jpg paths.
 		•✅ Added the expected path images/project3.jpg.
 
@@ -48,8 +47,8 @@ Aboutme.html
 	•✅ Added meaningful alt text to the image.
 	•✅ Added image dimensions to help prevent layout shifts.
 	•✅ Changed the email address into a clickable mailto: link.
-	•✅ Kept your existing stylesheet path: css/styles.css.
-	•✅ Kept your existing image path: images/profile.jpg.
+	•✅ Kept existing stylesheet path: css/styles.css.
+	•✅ Kept existing image path: images/profile.jpg.
 
 Index.html
 	• ✅ HTML5 semantic structure
@@ -66,7 +65,7 @@ Index.html
 	• ✅ aria-current="page" for the active page
 	• ✅ Internal links to About, Projects, and Contact
 	• ✅ Professional footer
-	• ✅ Compatible with your existing .hero, .intro, .project, .header, .footer, and nav CSS
+	• ✅ Compatible with the existing .hero, .intro, .project, .header, .footer, and nav CSS
 
 Style.css
 
