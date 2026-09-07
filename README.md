@@ -9,15 +9,13 @@ This project is a responsive personal portfolio website built with HTML and CSS.
 The starter code contained several errors and omissions:
 
 - The About, Projects, and Contact pages did not include the main navigation, making the site difficult to explore.
-- The Projects page used `Screenshots/` with a capital `S`, while the actual folder is `screenshots/`. This can break image loading on case-sensitive systems.
-- The third project referenced `images/project3.jpg`, but that asset was not available in the images folder.
 - The Projects page had an extra `>` after the closing footer tag.
-- The home-page hero image declared very small dimensions (`30` by `50`), which could distort its intrinsic display size.
 - Starter markup used inconsistent indentation and lacked some page-level descriptions.
+- Project sections initially appeared in one vertical column instead of displaying beside one another on larger screens.
 
 ## Fixes Implemented
 
-The current implementation adds descriptive metadata where needed, meaningful image alternative text, explicit image dimensions, structured headings, a labeled contact form, and responsive image sizing. The stylesheet also supplies visible hover and keyboard-focus states, mobile navigation behavior, validation feedback, consistent spacing, and reusable layout styles. The available project screenshot asset is now included in the repository for the Projects page.
+The current implementation adds descriptive metadata where needed, meaningful image alternative text, explicit image dimensions, structured headings, a labeled contact form, and responsive image sizing. The stylesheet also supplies visible hover and keyboard-focus states, mobile navigation behavior, validation feedback, consistent spacing, and reusable layout styles. The Projects page now uses a three-column CSS Grid on larger screens and switches to one column on small screens.
 
 ## HTML Structure and Semantics
 
@@ -25,7 +23,7 @@ Each page uses `header`, `nav` where provided, `main`, `section`, and `footer` l
 
 ## CSS Approach
 
-`portfolio/css/styles.css` begins with global box sizing and base typography, then defines reusable selectors for the header, navigation, main content, sections, projects, tables, images, forms, links, and footer. Class selectors such as `.hero`, `.intro`, `.work`, `.project`, and `.footer` provide page-specific styling, while element selectors such as `nav a`, `form input`, and `table` keep repeated patterns consistent. Pseudo-classes (`:hover`, `:focus`, `:focus-visible`, `:valid`, and `:invalid`) communicate interaction and form state. A media query at `max-width: 600px` adapts navigation, spacing, typography, and table padding for smaller screens.
+`portfolio/css/styles.css` begins with global box sizing and base typography, then defines reusable selectors for the header, navigation, main content, sections, projects, tables, images, forms, links, and footer. Class selectors such as `.hero`, `.intro`, `.work`, `.project`, `.projects-grid`, and `.footer` provide page-specific styling, while element selectors such as `nav a`, `form input`, and `table` keep repeated patterns consistent. `.projects-grid` uses three equal responsive columns with consistent gaps; its media-query rule changes the layout to one column below `600px`. Pseudo-classes (`:hover`, `:focus`, `:focus-visible`, `:valid`, and `:invalid`) communicate interaction and form state. The media query also adapts navigation, spacing, typography, and table padding for smaller screens.
 
 ## Accessibility Improvements
 
@@ -35,9 +33,9 @@ The site includes the document language, viewport metadata, descriptive page tit
 
 Open `portfolio/index.html` directly in a browser, then use the page links to navigate. For a local server, run this from the repository root:
 
-text
+```text
 python -m http.server 8000
-
+```
 
 Visit `http://localhost:8000/portfolio/`.
 

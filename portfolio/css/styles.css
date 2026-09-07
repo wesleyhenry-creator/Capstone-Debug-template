@@ -192,6 +192,25 @@ Introduction
 Projects
 ========================= */
 
+.projects-grid {
+display: grid;
+grid-template-columns: repeat(3, minmax(0, 1fr));
+gap: 25px;
+
+}
+
+.projects-grid > section {
+margin-bottom: 50px;
+}
+
+.projects-grid img {
+display: block;
+width: 100%;
+height: auto;
+margin: 15px auto;
+
+}
+
 .project {
 margin-bottom: 25px;
 padding: 20px;
@@ -202,7 +221,7 @@ border-radius: 6px;
 .project img {
 display: block;
 width: 100%;
-max-width: 600px;
+max-width: 00px;
 height: auto;
 margin: 15px auto;
 border-radius: 6px;
@@ -214,7 +233,7 @@ margin-bottom: 0;
 
 /* Combination selector */
 .project h2 {
-color: #164e70;
+color: #5995bb;
 }
 
 .project:hover {
@@ -452,6 +471,10 @@ nav a {
 main {
     width: 94%;
     margin: 20px auto;
+}
+
+.projects-grid {
+    grid-template-columns: 1fr;
 }
 
 section {
