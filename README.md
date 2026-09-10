@@ -33,12 +33,7 @@ The site includes the document language, viewport metadata, descriptive page tit
 
 ## View Locally
 
-
-text
-python -m http.server 8000
-
-
-Visit `http://localhost:8000/portfolio/`.
+Open index.html directly in a browser or use VS Code Live Server. Test all navigation links, images, the table, form validation, footer links and responsive layouts. For final validation, check all four HTML files with the W3C Markup Validation Service and css/styles.css with the W3C CSS Validation Service.
 
 ## Screenshots
 
@@ -50,4 +45,4 @@ https://github.com/wesleyhenry-creator/Capstone-Debug-template/blob/8334d2ea1bef
 
 ## Reflection
 
-The most challenging part was separating visual problems from path and markup errors. A path that worked on Windows could still fail after deployment because folder names are case-sensitive elsewhere. I compared every referenced asset with the actual folders, checked the HTML structure around the broken footer, and reviewed the CSS selectors against the classes used in each page. Testing at a narrow viewport also exposed where the navigation and content needed responsive rules. Using semantic elements, explicit labels, and focus states resolved both usability and accessibility issues without adding JavaScript or unnecessary dependencies.
+The most challenging part was separating visual problems from path. I compared every referenced asset with the actual folders, checked the HTML structure around the broken footer, and reviewed the CSS selectors against the classes used in each page. Testing at a narrow viewport also exposed where the navigation and content needed responsive rules. Using semantic elements, explicit labels, and focus states resolved both usability and accessibility issues without adding JavaScript or unnecessary dependencies.
