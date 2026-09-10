@@ -9,15 +9,15 @@ This project is a responsive personal portfolio website built with HTML and CSS.
 The starter code contained several errors and omissions:
 
 - The About, Projects, and Contact pages did not include the main navigation, making the site difficult to explore.
-- The Projects page used `Screenshots/` with a capital `S`, while the actual folder is `screenshots/`. This can break image loading on case-sensitive systems.
 - The third project referenced `images/project3.jpg`, but that asset was not available in the images folder.
-- The Projects page had an extra `>` after the closing footer tag.
 - Starter markup used inconsistent indentation and lacked some page-level descriptions.
 - Project sections initially appeared in one vertical column instead of displaying beside one another on larger screens.
-
+- Missing navigation between pages.
+- Placeholder-only fields are not enough for a usable contact form.
+  
 ## Fixes Implemented
 
-The current implementation adds descriptive metadata where needed, meaningful image alternative text, explicit image dimensions, structured headings, a labeled contact form, and responsive image sizing. The stylesheet also supplies visible hover and keyboard-focus states, mobile navigation behavior, validation feedback, consistent spacing, and reusable layout styles. The available project screenshot asset is now included in the repository for the Projects page.
+The current implementation adds descriptive metadata where needed, meaningful image alternative text, explicit image dimensions, structured headings, a labeled contact form, and responsive image sizing. The stylesheet also supplies visible hover and keyboard-focus states, mobile navigation behavior, validation feedback, consistent spacing, and reusable layout styles.
 
 ## HTML Structure and Semantics
 
@@ -42,11 +42,7 @@ Visit `http://localhost:8000/portfolio/`.
 
 ## Screenshots
 
-![Home page screenshot](portfolio/screenshots/Screenshot1.png)
 
-![Project 1 screenshot](portfolio/screenshots/Screenshot2.png)
-
-![Project 2 screenshot](portfolio/screenshots/Screenshot3.png)
 
 ## Reflection
 
