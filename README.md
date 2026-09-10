@@ -46,6 +46,8 @@ https://github.com/wesleyhenry-creator/Capstone-Debug-template/blob/c357f55d03af
 
 https://github.com/wesleyhenry-creator/Capstone-Debug-template/blob/8dcb670e13dbbbafa7b44920ea59039d97bbd63e/portfolio/screenshots/contact.png
 
+https://github.com/wesleyhenry-creator/Capstone-Debug-template/blob/8334d2ea1bef4a3096d5a3082d75d59a39e143a6/portfolio/screenshots/index.png
+
 ## Reflection
 
 The most challenging part was separating visual problems from path and markup errors. A path that worked on Windows could still fail after deployment because folder names are case-sensitive elsewhere. I compared every referenced asset with the actual folders, checked the HTML structure around the broken footer, and reviewed the CSS selectors against the classes used in each page. Testing at a narrow viewport also exposed where the navigation and content needed responsive rules. Using semantic elements, explicit labels, and focus states resolved both usability and accessibility issues without adding JavaScript or unnecessary dependencies.
