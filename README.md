@@ -42,6 +42,8 @@ Visit `http://localhost:8000/portfolio/`.
 
 ## Screenshots
 
+https://github.com/wesleyhenry-creator/Capstone-Debug-template/blob/c357f55d03af16cf7bf9eb7cc7770e173333e935/portfolio/screenshots/aboutme.png
+
 
 
 ## Reflection
