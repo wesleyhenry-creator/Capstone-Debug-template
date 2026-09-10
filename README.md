@@ -33,7 +33,7 @@ The site includes the document language, viewport metadata, descriptive page tit
 
 ## View Locally
 
-Open index.html directly in a browser or use VS Code Live Server. Test all navigation links, images, the table, form validation, footer links and responsive layouts. For final validation, check all four HTML files with the W3C Markup Validation Service and css/styles.css with the W3C CSS Validation Service.
+Download the zip file and you can view it by "view in browser". Or clone the URL repository and cd into the path. Open index.html directly in a browser on  VS Code Live Server and select show preview or "Open with live server"
 
 ## Screenshots
 
