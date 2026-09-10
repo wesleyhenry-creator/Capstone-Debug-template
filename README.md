@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+# My Personal Portfolio Website
 
 ## Overview
 
@@ -9,15 +9,15 @@ This project is a responsive personal portfolio website built with HTML and CSS.
 The starter code contained several errors and omissions:
 
 - The About, Projects, and Contact pages did not include the main navigation, making the site difficult to explore.
-- The Projects page used `Screenshots/` with a capital `S`, while the actual folder is `screenshots/`. This can break image loading on case-sensitive systems.
 - The third project referenced `images/project3.jpg`, but that asset was not available in the images folder.
-- The Projects page had an extra `>` after the closing footer tag.
 - Starter markup used inconsistent indentation and lacked some page-level descriptions.
 - Project sections initially appeared in one vertical column instead of displaying beside one another on larger screens.
+- Missing navigation between pages.
+- Placeholder-only fields are not enough for a usable contact form.
 
 ## Fixes Implemented
 
-The current implementation adds descriptive metadata where needed, meaningful image alternative text, explicit image dimensions, structured headings, a labeled contact form, and responsive image sizing. The stylesheet also supplies visible hover and keyboard-focus states, mobile navigation behavior, validation feedback, consistent spacing, and reusable layout styles. The available project screenshot asset is now included in the repository for the Projects page.
+The current implementation adds descriptive metadata where needed, meaningful image alternative text, explicit image dimensions, structured headings, a labeled contact form, and responsive image sizing. The stylesheet also supplies visible hover and keyboard-focus states, mobile navigation behavior, validation feedback, consistent spacing, and reusable layout styles.
 
 ## HTML Structure and Semantics
 
@@ -33,21 +33,16 @@ The site includes the document language, viewport metadata, descriptive page tit
 
 ## View Locally
 
-
-text
-python -m http.server 8000
-
-
-Visit `http://localhost:8000/portfolio/`.
+Download the zip file and you can view it by "view in browser". Or clone the URL repository and cd into the path. Open index.html directly in a browser on  VS Code Live Server and select show preview or "Open with live server"
 
 ## Screenshots
 
-![Home page screenshot](portfolio/screenshots/Screenshot1.png)
+https://github.com/wesleyhenry-creator/Capstone-Debug-template/blob/c357f55d03af16cf7bf9eb7cc7770e173333e935/portfolio/screenshots/aboutme.png
 
-![Project 1 screenshot](portfolio/screenshots/Screenshot2.png)
+https://github.com/wesleyhenry-creator/Capstone-Debug-template/blob/8dcb670e13dbbbafa7b44920ea59039d97bbd63e/portfolio/screenshots/contact.png
 
-![Project 2 screenshot](portfolio/screenshots/Screenshot3.png)
+https://github.com/wesleyhenry-creator/Capstone-Debug-template/blob/8334d2ea1bef4a3096d5a3082d75d59a39e143a6/portfolio/screenshots/index.png
 
 ## Reflection
 
-The most challenging part was separating visual problems from path and markup errors. A path that worked on Windows could still fail after deployment because folder names are case-sensitive elsewhere. I compared every referenced asset with the actual folders, checked the HTML structure around the broken footer, and reviewed the CSS selectors against the classes used in each page. Testing at a narrow viewport also exposed where the navigation and content needed responsive rules. Using semantic elements, explicit labels, and focus states resolved both usability and accessibility issues without adding JavaScript or unnecessary dependencies.
+The most challenging part was separating visual problems from path. I compared every referenced asset with the actual folders, checked the HTML structure around the broken footer, and reviewed the CSS selectors against the classes used in each page. Testing at a narrow viewport also exposed where the navigation and content needed responsive rules. Using semantic elements, explicit labels, and focus states resolved both usability and accessibility issues without adding JavaScript or unnecessary dependencies.
