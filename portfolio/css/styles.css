@@ -275,7 +275,7 @@ border-radius: 6px;
 .project img {
 display: block;
 width: 100%;
-max-width: 00px;
+max-width: 600px;
 height: auto;
 margin: 15px auto;
 border-radius: 6px;
@@ -431,16 +431,12 @@ form div label[for="name"] {
 margin-bottom: 8px;
 }
 
-form div > label:not(:has(input)) {
-display: block;
-}
-
-form div label:has(input[type="radio"]) {
-display: inline-flex;
-align-items: center;
-margin-right: 18px;
-margin-bottom: 6px;
-font-weight: normal;
+form .radio-label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 18px;
+    margin-bottom: 6px;
+    font-weight: normal;
 }
 
 form textarea {
