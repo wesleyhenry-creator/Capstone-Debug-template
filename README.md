@@ -43,6 +43,8 @@ https://github.com/wesleyhenry-creator/Capstone-Debug-template/blob/8dcb670e13db
 
 https://github.com/wesleyhenry-creator/Capstone-Debug-template/blob/8334d2ea1bef4a3096d5a3082d75d59a39e143a6/portfolio/screenshots/index.png
 
+https://github.com/wesleyhenry-creator/Capstone-Debug-template/blob/dd4f5a16c6e40ca8c948a78ade840e944dadf6d0/portfolio/screenshots/completed-website.png
+
 ## Reflection
 
 The most challenging part was separating visual problems from path. I compared every referenced asset with the actual folders, checked the HTML structure around the broken footer, and reviewed the CSS selectors against the classes used in each page. Testing at a narrow viewport also exposed where the navigation and content needed responsive rules. Using semantic elements, explicit labels, and focus states resolved both usability and accessibility issues without adding JavaScript or unnecessary dependencies.
