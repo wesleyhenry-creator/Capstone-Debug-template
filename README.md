@@ -37,14 +37,19 @@ Download the zip file and you can view it by "view in browser". Or clone the URL
 
 ## Screenshots
 
+### About Me Page
 https://github.com/wesleyhenry-creator/Capstone-Debug-template/blob/c357f55d03af16cf7bf9eb7cc7770e173333e935/portfolio/screenshots/aboutme.png
 
+### Contact Page
 https://github.com/wesleyhenry-creator/Capstone-Debug-template/blob/8dcb670e13dbbbafa7b44920ea59039d97bbd63e/portfolio/screenshots/contact.png
 
+### Index Page
 https://github.com/wesleyhenry-creator/Capstone-Debug-template/blob/8334d2ea1bef4a3096d5a3082d75d59a39e143a6/portfolio/screenshots/index.png
 
+### web/Mobile view Page
 https://github.com/wesleyhenry-creator/Capstone-Debug-template/blob/dd4f5a16c6e40ca8c948a78ade840e944dadf6d0/portfolio/screenshots/completed-website.png
 
+### Projects Page
 https://github.com/wesleyhenry-creator/Capstone-Debug-template/blob/8da7ca50819c441b99711aaecadd121fcdf0bb4a/portfolio/screenshots/before-project.png
 
 ## Reflection
