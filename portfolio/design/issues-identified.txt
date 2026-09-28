@@ -36,6 +36,7 @@ Project.html
 Aboutme.html
 	•✅ Added lang="en" for accessibility.
 	•✅ Added <meta charset="UTF-8">.
+	•✅ Added a meta description.
 	•✅ Added the responsive viewport.
 	•✅ Changed the page title from About to About Me.
 	•✅ Replaced unnecessary <div> elements with semantic <header>, <main>, <section>, and <footer>.
