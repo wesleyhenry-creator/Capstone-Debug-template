@@ -37,16 +37,6 @@ background-color: #222;
 text-align: center;
 }
 
-.header-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 15px;
-  flex-wrap: wrap;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
 .header h1 {
 margin: 0;
 font-size: 2.2rem;
@@ -253,8 +243,8 @@ gap: 25px;
 
 }
 
-.projects-grid > section {
-margin-bottom: 50px;
+.projects-grid > article {
+    margin-bottom: 50px;
 }
 
 .projects-grid img {

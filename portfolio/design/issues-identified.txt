@@ -49,7 +49,7 @@ Aboutme.html
 	•✅ Added image dimensions to help prevent layout shifts.
 	•✅ Changed the email address into a clickable mailto: link.
 	•✅ Kept existing stylesheet path: css/styles.css.
-	•✅ Kept existing image path: images/profile.jpg.
+	•✅ Kept existing image path: images/profile-photo.jpeg
 
 Index.html
 	• ✅ HTML5 semantic structure
