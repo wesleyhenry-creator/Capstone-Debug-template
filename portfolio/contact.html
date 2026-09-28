@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact me through my portfolio website for project inquiries, job opportunities, or general questions.">
+    <meta
+        name="description"
+        content="Contact me through my portfolio website for project inquiries, job opportunities, or general questions."
+    >
     <title>Contact Me</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+<header class="header">
+
+        <h1>Contact Me</h1>
+</header>
 
 <nav aria-label="Main navigation">
     <ul>
@@ -30,143 +37,153 @@
 
 <main>
     <article>
-        <h1>Get In Touch</h1>
+        <h2>Get In Touch</h2>
 
-    <form action="#" method="post">
+        <form action="#" method="post">
 
-        <for class="form-group">
-            <label for="name">Name:</label>
-            <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Enter your name"
-                autocomplete="name"
-                minlength="2"
-                required
-            >
-        </for>
-
-        <div>
-            <label for="email">Email:</label>
-            <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Enter your email address"
-                autocomplete="email"
-                required
-            >
-        </div>
-
-        <div>
-            <label for="cell-phone">Cell Phone:</label>
-            <input
-                type="tel"
-                id="cell-phone"
-                name="cell-phone"
-                placeholder="Enter your cell phone number"
-                autocomplete="tel"
-                minlength="10"
-                maxlength="15"
-                pattern="[0-9+\s()-]{10,15}"
-                required
-            >
-        </div>
-
-        <label clas>
-            <label for="subject">Subject:</label>
-            <select id="subject" name="subject" required>
-                <option value="">Select a topic</option>
-                <option value="project-inquiry">Project Inquiry</option>
-                <option value="job-opportunity">Job Opportunity</option>
-                <option value="general-question">General Question</option>
-            </select>
-        </label>
-
-        <fieldset>
-            <legend>Preferred Contact Method</legend>
-
-            <label>
+            <p class="form-group">
+                <label for="name">Name:</label>
                 <input
-                    type="radio"
-                    name="contact-method"
-                    value="email"
-                    checked
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    autocomplete="name"
+                    minlength="2"
+                    required
                 >
-                Email
-            </label>
+            </p>
 
-            <label class="radio-label">
+            <p class="form-group">
+                <label for="email">Email:</label>
                 <input
-                    type="radio"
-                    name="contact-method"
-                    value="email"
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email address"
+                    autocomplete="email"
+                    required
                 >
-                Phone
-            </label>
-        </fieldset>
+            </p>
 
-        <div>
-            <label for="message">Message:</label>
-            <textarea
-                id="message"
-                name="message"
-                rows="6"
-                minlength="10"
-                placeholder="Enter your message"
-                required
-            ></textarea>
-        </div>
+            <p class="form-group">
+                <label for="cell-phone">Cell Phone:</label>
+                <input
+                    type="tel"
+                    id="cell-phone"
+                    name="cell-phone"
+                    placeholder="Enter your cell phone number"
+                    autocomplete="tel"
+                    minlength="10"
+                    maxlength="15"
+                    pattern="[0-9+\s()-]{10,15}"
+                    required
+                >
+            </p>
 
-        <button type="submit">Send</button>
-    </form>
-</article>
+            <p class="form-group">
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject" required>
+                    <option value="">Select a topic</option>
+                    <option value="project-inquiry">Project Inquiry</option>
+                    <option value="job-opportunity">Job Opportunity</option>
+                    <option value="general-question">General Question</option>
+                </select>
+            </p>
 
+            <fieldset>
+                <legend>Preferred Contact Method</legend>
+
+                <label class="radio-label">
+                    <input
+                        type="radio"
+                        name="contact-method"
+                        value="email"
+                        checked
+                    >
+                    Email
+                </label>
+
+                <label class="radio-label">
+                    <input
+                        type="radio"
+                        name="contact-method"
+                        value="phone"
+                    >
+                    Phone
+                </label>
+            </fieldset>
+
+            <p class="form-group">
+                <label for="message">Message:</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    minlength="10"
+                    placeholder="Enter your message"
+                    required
+                ></textarea>
+            </p>
+
+            <button type="submit">Send</button>
+
+        </form>
+    </article>
 </main>
 
 <footer class="footer">
-<p>
-    &copy; 2026 My Portfolio | All rights reserved.
-</p>
-<p>
-    Contact me at
-    <a href="mailto:jimmy420cpt@gmail.com">jimmy420cpt@gmail.com</a>
-</p>
 
- <nav class="social-links" aria-label="Social media links">
-        <a class="social-link instagram"
-           href="https://www.instagram.com/"
-           target="_blank"
-           rel="noreferrer"
-           aria-label="Instagram">
+    <p>
+        &copy; 2026 My Portfolio | All rights reserved.
+    </p>
+
+    <p>
+        Contact me at
+        <a href="mailto:jimmy420cpt@gmail.com">jimmy420cpt@gmail.com</a>
+    </p>
+
+    <nav class="social-links" aria-label="Social media links">
+
+        <a
+            class="social-link instagram"
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Instagram"
+        >
             <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5zm5-3.25a1.25 1.25 0 1 1-1.25 1.25A1.25 1.25 0 0 1 17 6.25z"/>
             </svg>
         </a>
 
+        <a
+            class="social-link tiktok"
+            href="https://www.tiktok.com/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="TikTok"
+        >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14.5 2c.7 1.8 2.2 3 4.2 3.2v2.6c-1.5 0-2.9-.5-4.2-1.5v7.1a5.1 5.1 0 1 1-5.1-5.1c.4 0 .8 0 1.2.1v2.8a2.4 2.4 0 0 0-1.2-.4 2.7 2.7 0 0 0 0 5.4 2.7 2.7 0 0 0 2.7-2.7V2h2.4zm3.7 7.4v-2.6c1.3 0 2.5-.4 3.7-1.2v2.6c-1 .8-2.2 1.2-3.7 1.2z"/>
+            </svg>
+        </a>
 
-    <a class="social-link tiktok"
-       href="https://www.tiktok.com/"
-       target="_blank"
-       rel="noreferrer"
-       aria-label="TikTok">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M14.5 2c.7 1.8 2.2 3 4.2 3.2v2.6c-1.5 0-2.9-.5-4.2-1.5v7.1a5.1 5.1 0 1 1-5.1-5.1c.4 0 .8 0 1.2.1v2.8a2.4 2.4 0 0 0-1.2-.4 2.7 2.7 0 0 0 0 5.4 2.7 2.7 0 0 0 2.7-2.7V2h2.4zm3.7 7.4v-2.6c1.3 0 2.5-.4 3.7-1.2v2.6c-1 .8-2.2 1.2-3.7 1.2z"/>
-        </svg>
-    </a>
+        <a
+            class="social-link linkedin"
+            href="https://www.linkedin.com/in/wesley-henry-7838251b7"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+        >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6.94 8.5A1.56 1.56 0 1 1 6.9 5.4a1.56 1.56 0 0 1 .04 3.1zM5.5 9.8h2.8v9.7H5.5zm5.1 0h2.7v1.3h.1c.4-.7 1.3-1.5 2.8-1.5 3 0 3.5 2 3.5 4.6v5.3h-2.8v-4.9c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7v5h-2.8z"/>
+            </svg>
+        </a>
 
-    <a class="social-link linkedin"
-       href="https://www.linkedin.com/in/wesley-henry-7838251b7"
-       target="_blank"
-       rel="noreferrer"
-       aria-label="LinkedIn">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M6.94 8.5A1.56 1.56 0 1 1 6.9 5.4a1.56 1.56 0 0 1 .04 3.1zM5.5 9.8h2.8v9.7H5.5zm5.1 0h2.7v1.3h.1c.4-.7 1.3-1.5 2.8-1.5 3 0 3.5 2 3.5 4.6v5.3h-2.8v-4.9c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7v5h-2.8z"/>
-        </svg>
-    </a>
-</nav>
+    </nav>
+
 </footer>
 
 </body>
-</html>>
+</html>
